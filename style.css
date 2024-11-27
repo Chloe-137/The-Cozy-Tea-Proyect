@@ -1,0 +1,164 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+    text-align: center;
+  }
+
+  /* Header */
+
+.container {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  opacity: 0.9;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.menu li {
+  display: inline-flex;
+  text-decoration: underline;
+  list-style: none;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.container .menu li:hover {
+  color: rgb(73, 75, 194);
+  text-decoration: none;
+}
+
+
+.mission-card {
+  background-color: black;
+  width: 100%;
+  opacity: 1;
+}
+
+.mission {
+  display: flex;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1200px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+.mission h2 {
+  font-size: 35px;
+  padding-bottom: 10px;
+  padding-top: 3px;
+}
+
+.mission h4 {
+  padding-bottom: 3px;
+}
+
+.monthly-tea {
+  display: block;
+  width: 1000px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+.monthly-tea h2 {
+  padding-bottom: 30px;
+  padding-top: 70px;
+}
+
+.monthly-tea h4 {
+  padding-bottom: 15px;
+}
+
+.tea-types {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tea {
+  padding: 20px 15px;
+}
+
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.locations {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*196kny3*_gcl_au*MTA0NjA2MTE3Ny4xNzMyNTU0MTYy*_ga*MTYxMjU1NDUxMC4xNzMyNTU0MTYz*_ga_3LRZM6TM9L*MTczMjU1NDI1NC4xLjEuMTczMjU1NDgxOS4wLjAuMA');
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: center;
+  height: 500px; 
+  margin: 0 auto;
+  display: block;
+}
+
+.locations-items {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 40px;
+}
+
+.locations-type {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.locations h2 {
+  padding-bottom: 15px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 200px;
+}
+
+.brand {
+  padding-top: 10px;
+}
+
+.email {
+  padding-top: 40px;
+}
+
+.mobile {
+  padding-top: 40px;
+}
+
+.copyright {
+  display: flex;
+  height: 100px;
+  margin-left: 20px;
+  font-size: 15px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
